@@ -438,7 +438,7 @@ public class SudAudioInputStream extends AudioInputStream {
 	}
 
 
-	private static SudFileMap loadSudMap(File file) throws IOException, ClassNotFoundException {
+	static SudFileMap loadSudMap(File file) throws IOException, ClassNotFoundException {
 		FileInputStream fileInputStream
 		= new FileInputStream(file);
 		ObjectInputStream objectInputStream
